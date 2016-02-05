@@ -80,16 +80,15 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 /*----------------------------------------------Header-------------------------------------*/
 
 #header{padding:20px 0;}
-
+#here{background-color: yellow;}
 #header #hgroup{float:left; margin:0 0 20px 0;}
 #header #hgroup h1, #header #hgroup h2{font-weight:normal; font-style:normal; text-transform:none;}
 #header #hgroup h1{font-size:36px;}
 #header #hgroup h2{font-size:13px;}
 
-#header nav{display:block; float:right; margin:10px 0 0 0; padding:20px 0; color:#C0BAB6; background-color:#232323;}
+#header li{display:block; float:right; margin:10px 0 0 0; padding:20px 0; color:#C0BAB6; background-color:#232323;}
 #header nav ul{padding:0 20px;}
 #header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
-#header nav li.last{margin-right:0;}
 #header nav li a{color:#C0BAB6; background-color:#232323;}
 #header nav li a:hover{color:#FF9900; background-color:#232323;}
 
@@ -135,5 +134,5 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 /*----------------------------------------------Copyright-------------------------------------*/
 
-#copyright{padding:20px 0;}
+#copyright{padding:5em 0;}
 #copyright p{margin:0; padding: 0;}

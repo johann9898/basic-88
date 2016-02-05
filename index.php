@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-<title>Tímaverkefni 1</title>
+<title>Welcome <?php include 'php/title.php';?></title>
 <meta charset="iso-8859-1">
 <link rel="stylesheet" href="styles/layout.css" type="text/css">
 <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
@@ -57,6 +57,8 @@
 </div>
 
 </div>
-
+<footer  id="copyright" class="clear">
+  <p>&copy; <?php $startYear = 2016; $thisYear = date('Y'); if ($startYear == $thisYear) {    echo $startYear; } else {    echo "{$startYear}&ndash;{$thisYear}"; } ?> Jóhann Rúnarsson</p>
+</footer>
 </body>
 </html>
