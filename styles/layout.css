@@ -5,15 +5,29 @@ Author: OS Templates
 Author URI: http://www.os-templates.com/
 Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
 */
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 #here
 {
 	color:red;
 }
+<<<<<<< HEAD
 
 
 
 body{margin:0 auto; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif;}
+=======
+.random 
+{
+	width: 1900px;
+	height: 1080px;
+}
+html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+
+body{margin:0; padding:0; font-family:Georgia, "Times New Roman", Times, serif; color:#919191; background-color:#232323;}
+>>>>>>> origin/master
 
 .clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
 .clear{display:block; clear:both;}
@@ -40,6 +54,7 @@ address, article, aside, figcaption, figure, footer, header, nav, section{displa
 q:before{content:'“ '; font-size:26px;}
 q:after{content:' „'; font-size:26px; line-height:0;}
 
+<<<<<<< HEAD
 .form_move
 {
 	padding: 0 0 0 10px;
@@ -99,17 +114,51 @@ q:after{content:' „'; font-size:26px; line-height:0;}
     font-size: 20px;
     
 }
+=======
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%;padding:0; text-align:left;}
+
+.row1, .row1 a{color:#C0BAB6; background-color:#333333;}
+.row2{color:#979797; background-color:#FFFFFF;}*/
+.row2 a{color:#FF9900; background-color:#FFFFFF;}
+.row3{color:#989898; background-color:#333333;}
+.row3 a{color:#FF9900; background-color:#333333;}
+.row4, .row4 a{color:#919191; background-color:#232323;}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #footer, #copyright{display:block; width:960px; margin:0 auto;}
+
+#container{display:block; width:960px;}
+#fade
+{  
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+
+}​
+
+>>>>>>> origin/master
 
 nav ul{margin:0; padding:0; list-style:none;}
 
 h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:32px; font-weight:normal; font-style:italic; line-height:normal;}
 
 address{font-style:normal;}
+<<<<<<< HEAD
 .padding{
     margin: 10em;
 }
 form{padding:0; border:none;}
 fieldset, legend{margin:0; padding:0; border:none;}
+=======
+
+
+form, fieldset, legend{margin:0; padding:0; border:none;}
+>>>>>>> origin/master
 legend{display:none;}
 input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Times,serif;}
 
@@ -138,8 +187,13 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 #header li{display:block; float:left; margin:10px 0 0 0; padding:20px 0;}
 #header nav ul{padding:0 20px; float: right;}
 #header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
+<<<<<<< HEAD
 
 #here{color:#C0BAB6; background-color:#232323;}
+=======
+#header nav li a{color:#C0BAB6; background-color:#232323;}
+#header #here li a{color:blue; background-color:#232323;}
+>>>>>>> origin/master
 #header nav li a:hover{color:#FF9900; background-color:#232323;}
 
 /*----------------------------------------------Content Area-------------------------------------*/

@@ -21,6 +21,11 @@
     <div id="hgroup">
       <h1 class="font_move">Home</h1>
       </div>
+<<<<<<< HEAD
+=======
+    <nav>
+      <?php include 'include/menu.php';?>
+>>>>>>> origin/master
 
     <nav>
     <div class="pure-menu pure-menu-open pure-menu-horizontal" >
@@ -30,11 +35,18 @@
   </header>
 </div>
 <!-- content -->
+<<<<<<< HEAD
 <div  clsss"pure-g" id="middle">
 <section>
   <div id="container" class="pure-u-1 pure-u-sm-24-24 pure-u-md-24-24 pure-u-lg-24-24">
     <!-- Slider -->
     <section class="move"><img src= "<?php echo $input[array_rand($input)]; ?>" alt=""></section>
+=======
+<div class="wrapper row2">
+  <div id="container" class="pure-u-1 pure-u-sm-24-24 pure-u-md-24-24 pure-u-lg-24-24">
+    <!-- Slider -->
+    <section id = "fade" ><img src= "<?php echo $input[array_rand($input)]; ?>" alt=""></section>
+>>>>>>> origin/master
     <!-- main content -->
     
     <!-- / content body -->
